@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <style>
+        body {background: #ecebe6; font: 1rem Roboto;}
+        table {border: 2px solid #636669; margin: 50px auto; border-collapse: collapse; width: 80%; background: #fff;}
+        td, th {border: 1px solid #75797d; padding: 16px;}
+
+        tbody tr:nth-child(odd) {background: #c0d8dd; /* Color de fondo para filas impares */}
+
+        caption {font-size: 24px; font-weight: 600; text-align: left; padding-bottom: 16px; color: #636669;}
+    </style>
+</head>
+<body>
+    <table>
+
+        <caption>Título de la Tabla</caption>
+
+        <colgroup>
+            <col><col><col>
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th colspan="2">Lorem Ipsum</th><th colspan="2">Ipsum Dolor</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Datos 1</td><td>Datos 2</td><td>Datos 3</td><td>Datos 4</td>
+            </tr>
+            <tr>
+                <td>Datos 1</td><td>Datos 2</td><td>Datos 3</td><td>Datos 4</td>
+            </tr>
+            <tr>
+                <td>Datos 1</td><td>Datos 2</td><td>Datos 3</td><td>Datos 4</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Datos 1</td><td>Datos 2</td><td>Datos 3</td><td>Datos 4</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
